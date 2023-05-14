@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       {
-        chatVisibility ? <Chat socket={socket} /> : <Register setSocket={setSocket} setChatVisibility={setChatVisibility} />
+        chatVisibility ? <Chat socket={socket} /> : <Join setSocket={setSocket} setChatVisibility={setChatVisibility} />
       }
     </div>
   )

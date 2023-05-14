@@ -1,5 +1,5 @@
 .join-container{
-  background-color: #FFF;
+  background-color: rgba(18, 101, 5, 0.32);
   color: #000;
   width: 400px;
   height: 200px;
@@ -11,3 +11,17 @@
   -webkit-box-shadow: 5px 5px 17px 1px rgba(0, 0, 0, 0.3);
 	box-shadow: 5px 5px 17px 1px rgba(0, 0, 0, 0.3);
 }
+
+.join-container button{
+  background-color: #0b9431;
+}
+
+.join-container button:hover{
+  background-color: #26fe00;
+}
+
+
+.css-lll1vm-MuiButtonBase-root-MuiButton-root{
+  background-color: #0b9431;
+}
+
